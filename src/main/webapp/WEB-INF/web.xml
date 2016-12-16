@@ -11,7 +11,7 @@
     </welcome-file-list>
 
     <context-param>
-        <!-- Tema sam para a tela -->
+        <!-- Tema sam para util tela -->
         <param-name>primefaces.THEME</param-name>
         <param-value>cupertino</param-value>
     </context-param>

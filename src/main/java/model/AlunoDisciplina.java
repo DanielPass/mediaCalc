@@ -1,6 +1,7 @@
-package Model;
+package model;
 
 import javax.persistence.*;
+import java.util.List;
 
 /**
  * Created by daniel on 15/12/2016.
@@ -10,7 +11,7 @@ import javax.persistence.*;
 public class AlunoDisciplina {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int id_alunodisclina;
+    private int     id_alunoDisciplina;
 
     private int     notaFormalN1;
     private boolean getNotaFormalN1Aplicada;
@@ -47,11 +48,11 @@ public class AlunoDisciplina {
     private Disciplina disciplina;
 
     public int getId_alunodisclina() {
-        return id_alunodisclina;
+        return id_alunoDisciplina;
     }
 
     public void setId_alunodisclina(int id_alunodisclina) {
-        this.id_alunodisclina = id_alunodisclina;
+        this.id_alunoDisciplina = id_alunodisclina;
     }
 
     public int getNotaFormalN1() {

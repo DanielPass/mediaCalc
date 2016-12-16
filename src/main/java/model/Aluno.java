@@ -1,4 +1,4 @@
-package Model;
+package model;
 import org.hibernate.annotations.NaturalId;
 import javax.persistence.*;
 import javax.persistence.GeneratedValue;
@@ -22,7 +22,7 @@ public class Aluno {
     private String senha;
 
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER, orphanRemoval = true)
-    @JoinColumn(name = "id_alunodisciplina")
+    @JoinColumn(name = "id_alunoDisciplina")
     private List<AlunoDisciplina> alunoDisciplinas;
 
     @Transient
@@ -75,4 +75,5 @@ public class Aluno {
     public void setAlunos(List<Aluno> alunos) {
         this.alunos = alunos;
     }
+
 }

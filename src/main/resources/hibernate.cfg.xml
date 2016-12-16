@@ -13,7 +13,7 @@
         <property name="hibernate.show_sql">true</property>
         <property name="hibernate.format_sql">false</property>
         <!-- aqui começam o mapeamento das classes de persistencia -->
-        <mapping class="Model.Aluno"/>
-        <mapping class="Model.Disciplina"/>
+        <mapping class="model.Aluno"/>
+        <mapping class="model.Disciplina"/>
     </session-factory>
 </hibernate-configuration>

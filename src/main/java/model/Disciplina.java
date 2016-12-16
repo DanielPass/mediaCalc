@@ -1,8 +1,9 @@
-package Model;
+package model;
 
 import org.hibernate.annotations.NaturalId;
 
 import javax.persistence.*;
+import java.util.List;
 
 /**
  * Created by daniel on 15/12/2016.
