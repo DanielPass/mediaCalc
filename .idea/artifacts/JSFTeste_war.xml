@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="JSFTeste:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="JSFTeste-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="JSFTeste:war exploded" />
+    </root>
+  </artifact>
+</component>
